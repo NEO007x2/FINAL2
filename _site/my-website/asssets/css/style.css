@@ -39,7 +39,6 @@ body {
   background-color: #575757;
 }
 
-/* แสดงเมนูเมื่อกดขีดสาม */
 .menu.show {
   display: block;
 }
