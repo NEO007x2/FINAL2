@@ -1,5 +1,4 @@
-title: "My Website"
-description: "A simple description of your website"
-baseurl: "/"
-url: "https://neo007x2.github.io/FINAL-TEST/"
-theme: "jekyll-theme-primer"
+title: เว็บไซต์ตัวอย่าง
+description: นี่คือเว็บไซต์ที่สร้างด้วย Jekyll
+url: "https://neo007x2.github.io/FINAL2/"  # ใส่ URL ของคุณ
+baseurl: "/FINAL2"  # ชื่อของ repository ของคุณ
