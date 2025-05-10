@@ -1,47 +1,45 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .hamburger-menu {
-    font-size: 30px;
-    cursor: pointer;
-    text-align: right;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: right;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
 }
 
 .menu {
-    display: none;
-    background-color: #333;
+  display: none;
+  background-color: #333;
 }
 
 .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu ul li {
-    padding: 10px;
-    text-align: center;
+  padding: 10px;
+  text-align: center;
 }
 
 .menu ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
+  color: white;
+  text-decoration: none;
+  display: block;
 }
 
 .menu ul li a:hover {
-    background-color: #575757;
+  background-color: #575757;
 }
 
-/* ทำให้เมนูแสดงเสมอเมื่อเป็นหน้าจอเล็ก */
-@media screen and (max-width: 768px) {
-    .menu.show {
-        display: block;
-    }
+/* แสดงเมนูเมื่อกดขีดสาม */
+.menu.show {
+  display: block;
 }
